@@ -1,0 +1,112 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-image: url("./images/houndstooth-pattern.png");
+    background-repeat: repeat;
+    line-height: 34px;
+    font-size: 20px;
+    color: #4e4e4e; 
+}
+
+.header, .content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    border: 1px solid #cccccc;
+}
+
+.content{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 68px;
+}
+
+hr{
+    border-width: 3px;
+    border-color: #d3d3d3;
+}
+
+.author{
+    max-width: 30%;
+    margin: 0 auto;
+    float: left;
+}
+
+.navBar{
+    float: right;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 26px 20px 10px 0px;
+}
+
+.content-body{
+    padding-top: 20px;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5{
+    background-size: 300px 200px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 30px;
+}
+
+.item-1{
+    background-image: url("./images/kbm.jpg");
+}
+
+.item-2{
+    background-image: url("./images/kbmoutdoors.jpg");
+}
+
+.item-3{
+    background-image: url("./images/mouse-invaders.png");
+}
+
+.item-4{
+    background-image: url("./images/stream.jpg");
+}
+
+.item-5{
+    background-image: url("./images/youtube.jpg");
+}
+
+.portfolio-item-text{
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    color: white;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
