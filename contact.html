@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Joshua LaRochelle Portfolio</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>
+
     <header>
 
         <div class="header">
             <div class="author">
-                <h2>Joshua LaRocehlle</h2>
+                <h2>Joshua LaRochelle</h2>
             </div>
-            <div class="navBar">
+            <nav class="navBar">
                     <ul>
                         <li><a href="index.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li>
                     </ul>
-            </div>
+            </nav>
         </div>
         
     </header>
 
     <div class="content">
-        <h1>Contact</h1>
-        <hr>
-        <form action="/action_page.php" id="contactform">
-            Name<br>
-            <input type="text" name="name" value="John Smith"><br>
-            Email<br>
-            <input type="email" name="email" value="example@email.com"><br>
-            Message<br>
-        </form>
-        <textarea rows="5" cols="50" name="message" form="contactform"></textarea>
+        <section class="container">
+            <h1>Contact</h1>
+            <hr>
+            <div class="content-body">
+                <form action="/action_page.php" id="contactform">
+                    Name<br>
+                    <input type="text" name="name" value="John Smith"><br>
+                    Email<br>
+                    <input type="email" name="email" value="example@email.com"><br>
+                    Message<br>
+                </form>
+                <textarea rows="5" cols="50" name="message" form="contactform"></textarea>
+            </div>
+        </section>
         
     </div>
 

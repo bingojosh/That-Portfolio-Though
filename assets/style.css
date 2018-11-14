@@ -44,7 +44,8 @@ ul{
     margin: 0 auto;
     float: left;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 30px;
+    line-height: 0.1;
 }
 
 .navBar{
@@ -74,7 +75,7 @@ h1{
     padding-top: 20px;
 }
 
-.item-1, .item-2, .item-3, .item-4, .item-5{
+.item{
     background-size: 300px 200px;
     height: 200px;
     width: 300px;
@@ -82,23 +83,23 @@ h1{
     margin: 30px;
 }
 
-.item-1{
+#item-1{
     background-image: url("./images/kbm.jpg");
 }
 
-.item-2{
+#item-2{
     background-image: url("./images/kbmoutdoors.jpg");
 }
 
-.item-3{
+#item-3{
     background-image: url("./images/mouse-invaders.png");
 }
 
-.item-4{
+#item-4{
     background-image: url("./images/stream.jpg");
 }
 
-.item-5{
+#item-5{
     background-image: url("./images/youtube.jpg");
 }
 
@@ -128,7 +129,7 @@ li{
 }
 
 li:last-child{
-    border-right: none;
+    border: none;
 }
 
 li a{
@@ -138,14 +139,11 @@ li a{
     color: #777777;
 }
 
-li a:hover {
-    background-color: #4aaaa5;
-    color: #ffffff;
-}
-
 .container{
     padding: 30px;
     border: 1px solid #dddddd;
 }
 
-
+.row{
+    position: relative;
+}
