@@ -1,6 +1,6 @@
 html, body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body{
@@ -9,7 +9,7 @@ body{
     background-repeat: repeat;
     line-height: 34px;
     font-size: 20px;
-    color: #4e4e4e; 
+    color: #777777; 
 }
 
 .header, .content{
@@ -27,8 +27,6 @@ header{
 
 .content{
     background: #ffffff;
-    border: 1px solid #dddddd;
-    padding: 68px;
 }
 
 hr{
@@ -36,14 +34,22 @@ hr{
     border-color: #d3d3d3;
 }
 
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
 .author{
-    max-width: 30%;
+    max-width: 40%;
     margin: 0 auto;
     float: left;
+    background-color: #4aaaa5;
+    padding: 20px;
 }
 
 .navBar{
     float: right;
+    margin-top: 15px;
 }
 
 header::after {
@@ -54,6 +60,7 @@ header::after {
 
 h1{
     margin: 0 auto;
+    color: #4aaaa5;
 }
 
 .profile{
@@ -108,5 +115,37 @@ h1{
 
 h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
 }
+
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+li{
+    float: left;
+    border-right: 1px solid;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #777777;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.container{
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+
