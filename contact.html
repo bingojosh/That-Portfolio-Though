@@ -30,14 +30,20 @@
                 <h1>Contact</h1>
                 <hr>
                 <div class="content-body">
-                    <form action="/action_page.php" id="contactform">
-                        Name<br>
-                        <input type="text" name="name" value="John Smith"><br>
-                        Email<br>
-                        <input type="email" name="email" value="example@email.com"><br>
-                        Message<br>
-                    </form>
-                    <textarea rows="5" cols="50" name="message" form="contactform"></textarea>
+                    <div class="form-box">
+                        <form action="/action_page.php">
+                          <label for="name">Full Name</label>
+                          <input type="text" id="name" name="fullname" placeholder="Your name..">
+                      
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" placeholder="example@email.com..">
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                        </form>
+                      </div>
                 </div>
             </section>
         </div>
