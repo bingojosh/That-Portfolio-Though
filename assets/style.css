@@ -79,7 +79,7 @@ header::after {
 }
 
 h1{
-    margin: 0 auto;
+    margin: 0px 0px 30px 0px;
     color: #4aaaa5;
 }
 
@@ -170,19 +170,25 @@ li a:hover{
 .portfolio-item{
     position: relative;
     margin: 20px 20px 20px 5px;
-    width: 302px;
+    width: 312px;
     float: left;
+    border: 5px #ffffff solid;
 }
 
 .portfolio-item:hover{
     border: 5px #4aaaa5 solid;
-    margin: 15px 15px 15px 0px;
 }
 
 .row{
     max-width: 100%;
-    min-height: 230px;
+    height: 230px;
     margin-top: 15px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 img{
