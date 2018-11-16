@@ -1,15 +1,5 @@
-<!DOCTYPE php>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <title>Joshua LaRochelle Portfolio</title>
-    <link rel="icon" href="assets/images/icon.png" type="image/gif" sizes="16x16">
-</head>
-<body>
+This is a form.
 
-Thank you, <?php echo $_GET["name"]; ?>!<br>
-Your message of: <?php echo $_GET["email"]; ?> will be read my Josh soon.
+I dont know why it doesn't work.
 
-</body>
-</html>
+Guess I need more class.
